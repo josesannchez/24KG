@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Consejo">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Revisa constantemente las luces del auto.\n Es común darse cuenta en la noche cuando una luz delantera está fallando, puedes pedir ayuda a otra persona para que compruebe que todas las luces están funcionando adecuadamente."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Evita exponer tu auto constantemente al sol y a altas temperaturas.\n Esto al mediano plazo puede acelerar el deterioro de tu auto."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Mantén tus vidrios limpios no solo por fuera.\n Es importante que de manera semanal limpies tus vidrios por dentro con un paño seco y si es posible también con antiempañante, ya que con el tiempo se acumula grasa y vapor"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Mantén la limpieza de tu auto al menos cada 2 semanas.\n La acumulación de suciedad y barro pueden ser perjudiciales para tu vehículo, la vida útil de las partes mecánicas aumentará y el brillo de la pintura se extenderá por mayor tiempo."
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=" Presta atención a los ruidos extraños que pueda estar haciendo tu auto, es un aviso de que algo no anda bien."
+        android:textSize="14sp" />
+</LinearLayout>

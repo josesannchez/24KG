@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="facci.sanchezarteagajose.a2kg">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".Login.HOME"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashsCreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login.HORARIO" />
+        <activity android:name=".Login.Registro" />
+        <activity android:name=".Servicios" />
+        <activity android:name=".Login.Vehiculo" />
+        <activity android:name=".Consejo" />
+        <activity android:name=".Contacto" />
+        <activity android:name=".Login.validacion" />
+        <activity android:name=".Login.Login" />
+        <activity android:name=".vist2" />
+        <activity android:name=".Res" />
+
+    </application>
+</manifest>
